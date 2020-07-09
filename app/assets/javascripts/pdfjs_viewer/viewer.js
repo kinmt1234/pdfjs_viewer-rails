@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'http://localhost:3001', 'http://financial-entries.cicentral.cc'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'https://www.cicentral.cc', 'http://localhost:3001', 'http://financial-entries.cicentral.cc'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
